@@ -1,5 +1,6 @@
 import React from 'react'
 import { words } from '../constants'
+import Button from '../components/Button'
 
 
 const Hero = () => {
@@ -30,9 +31,20 @@ const Hero = () => {
                           </span>
                          </span>  
                       </h1>  
+
+                      
                       <h1>em projetos reais</h1>
                       <h1>que entregam resultado</h1>
                     </div>
+                    <p className='text-white-50 md: text-xl relative z-10 pointer-events-none'>
+                        Olá, eu sou Marina Mariana, uma desenvolvedora brasileira com paixão por códigos.
+                      </p>
+
+                      <Button 
+                      className="md:w-80 md:h-16 w-75 h-12"
+                      id="button"
+                      text="Veja meu trabalho" 
+                       />
 
                 </div>
             </header>
